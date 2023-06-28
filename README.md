@@ -51,46 +51,47 @@ Inicie o servidor:
 
 A API possui os seguintes endpoints:
 
-<h3>Importar filmes </h3>h3>
+<h3>Importar filmes </h3>
 
 Endpoint para importar filmes de um arquivo CSV presente no diretório raiz do projeto. O arquivo CSV deve ter o nome 'netflix_titles.csv'.
 
-URL: /api/v1/movies/import
-Método: POST
-Parâmetros: file (arquivo CSV)
-Resposta de sucesso:
-Status: 200 OK
-Corpo: { "message": "Import successful" }
+- URL: /api/v1/movies/import
+- Método: POST
+- Parâmetros:
+  - file: arquivo CSV contendo os filmes a serem importados
+- Resposta de sucesso:
+  - Status: 200 OK
+  - Body: { "message": "Import successful" }
 
 <h3>Listar filmes</h3>
 
 Este endpoint retorna uma lista de filmes.
 
-Método: GET
-URL: http://localhost:3000/api/v1/movies
-Parâmetros opcionais:
-page: número da página (padrão: 1)
-per_page: quantidade de filmes por página (padrão: 25)
-Resposta de sucesso:
-Status: 200 OK
-Corpo: JSON contendo a lista de filmes e informações de paginação
+- Método: GET
+- URL: http://localhost:3000/api/v1/movies
+- Parâmetros opcionais:
+  - page: número da página (padrão: 1)
+  - per_page: quantidade de filmes por página (padrão: 25)
+- Resposta de sucesso:
+  - Status: 200 OK
+  - Body: JSON contendo a lista de filmes e informações de paginação
 
 <h3> Filtrar filmes </h3>
 
 Este endpoint permite filtrar os filmes por diferentes critérios, como título, gênero, ano, país, etc.
 
-Método: GET
-URL: http://localhost:3000/api/v1/movies
-Parâmetros:
-title: título do filme
-genre: gênero do filme
-year: ano de lançamento do filme
-country: país de origem do filme
-published_at: data de publicação do filme
-description: descrição do filme
-Resposta de sucesso:
-Status: 200 OK
-Corpo: JSON contendo a lista de filmes filtrados
+- Método: GET
+- URL: http://localhost:3000/api/v1/movies
+- Parâmetros:
+  - title: título do filme
+  - genre: gênero do filme
+  - year: ano de lançamento do filme
+  - country: país de origem do filme
+  - published_at: data de publicação do filme
+  - description: descrição do filme
+- Resposta de sucesso:
+  - Status: 200 OK
+  - Body: JSON contendo a lista de filmes filtrados
 
 <h3> Exemplos de uso </h3>
 
@@ -148,6 +149,7 @@ Sinta-se à vontade para contribuir com melhorias para este projeto. Se você en
 <h2> 📝 references</h2>
 
 <p><a href="https://leanpub.com/conhecendo-ruby"> Lvro - Conhecendo Ruby </a></p>
+<p><a href="https://guides.rubyonrails.org/api_app.html"> Rails for Api</a></p>
 <p><a href="https://www.ruby-lang.org/pt/"> Ruby </a></p>
 <p><a href="https://www.rubyguides.com/2018/11/rspec-introduction/"> Rspec </a></p>
 
