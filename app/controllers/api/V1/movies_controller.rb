@@ -16,7 +16,7 @@ module Api
             movie.description = row['description']
           end
         end
-        render json: { message: 'Import successful' }, status: :ok
+        render json: { message: 'Import successful' }, status: :created
       end
 
       def index

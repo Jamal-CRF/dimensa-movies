@@ -11,7 +11,7 @@ RSpec.describe Api::V1::MoviesController, type: :controller do
         post :import, params: { file: fixture_file_upload(file_path, 'text/csv') }
       end.to change(Movie, :count).by(131)
 
-      expect(response).to have_http_status(:ok)
+      expect(response).to have_http_status(:created)
       expect(response.body).to eq({ message: 'Import successful' }.to_json)
     end
   end
