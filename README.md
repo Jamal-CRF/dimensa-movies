@@ -51,7 +51,7 @@ Inicie o servidor:
 
 A API possui os seguintes endpoints:
 
-<h3>Importar filmes <h3>
+<h3>Importar filmes </h3>h3>
 
 Endpoint para importar filmes de um arquivo CSV presente no diretório raiz do projeto. O arquivo CSV deve ter o nome 'netflix_titles.csv'.
 
