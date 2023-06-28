@@ -259,7 +259,7 @@ Exemplo usando cURL:
 <h2> 📝 Contribuindo:</h2>
 Sinta-se à vontade para contribuir com melhorias para este projeto. Se você encontrar algum problema ou tiver sugestões, por favor, abra uma "issue" neste repositório.
 
-<h2> Author</h2>
+<h2> Autor</h2>
 
 <img src="https://avatars.githubusercontent.com/u/68801163?s=96&v=4" width="110" title="hover text">
 
