@@ -5,7 +5,7 @@
 <h1>Dimensa Movies</h1>
 <p>Essa é uma API RESTful desenvolvida com Ruby on Rails, usando a estrutura Rails API para criar um serviço para gerenciar    filmes. A API permite importar filmes de um arquivo CSV, listar filmes, filtrar filmes por diversos critérios e ordenar os filmes pelo ano de lançamento..</p>    
 
-<h2> 🛠 Dependencies</h2>
+<h2> 🛠 Dependências</h2>
 
 <p>Ruby 3.1.3</p>
 <p>Rails 7.0.4.3</p>
