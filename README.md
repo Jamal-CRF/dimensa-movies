@@ -98,6 +98,7 @@ Este endpoint permite filtrar os filmes por diferentes critérios, como título,
 Aqui estão alguns exemplos de uso dos endpoints da API:
 
 <h4>Importar filmes</h4>
+
 Para importar filmes a partir de um arquivo CSV, envie uma requisição POST para http://localhost:3000/api/v1/movies/import com o arquivo CSV como parâmetro.
 
 Exemplo usando cURL:
