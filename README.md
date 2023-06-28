@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../dimensa-movies/dimensa.jpg" width="200" title="hover text">
+ ![Dimensa Movies](dimensa.jpg)
   
 </p>
 <h1>Dimensa Movies</h1>
