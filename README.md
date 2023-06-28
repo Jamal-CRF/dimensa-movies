@@ -19,7 +19,7 @@ Estas são apenas algumas das principais dependências usadas no projeto. Para v
 Clone o repositório do projeto::
 
 ```sh
-  git clone https://github.com/seu-usuario/movies-api.git
+  git clone https://github.com/seu-usuario/dimensa-movies.git
   ```
 Acesse o diretório do projeto:
 
