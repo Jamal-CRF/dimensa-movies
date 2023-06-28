@@ -24,7 +24,7 @@ Clone o repositório do projeto::
 Acesse o diretório do projeto:
 
 ```sh
-  cd lab_portal
+  cd dimensa-movies
   ```
 Instale as dependências do Ruby:
 
