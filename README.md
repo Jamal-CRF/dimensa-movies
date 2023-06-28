@@ -11,8 +11,8 @@
 <p>Rails 7.0.4.3</p>
 <p>SQlite3</p>
 
-
 Estas são apenas algumas das principais dependências usadas no projeto. Para ver a lista completa, consulte o arquivo Gemfile.
+
 
 <h2> 💻 Setup:</h2>
 
