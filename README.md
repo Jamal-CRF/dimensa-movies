@@ -1,6 +1,6 @@
 <p align="center">
- ![Dimensa Movies](./dimensa.jpg)
-  
+  <img src="https://dimensa.com/wp-content/uploads/2021/09/Logo-1.png" width="200" title="hover text">
+ 
 </p>
 <h1>Dimensa Movies</h1>
 <p>Essa é uma API RESTful desenvolvida com Ruby on Rails, usando a estrutura Rails API para criar um serviço para gerenciar    filmes. A API permite importar filmes de um arquivo CSV, listar filmes, filtrar filmes por diversos critérios e ordenar os filmes pelo ano de lançamento..</p>    
