@@ -21,7 +21,7 @@ Criar uma API de serviço do catálogo de filmes. Para isso será necessário cr
         "description": "A classmate receives a series of tapes that unravel the mystery of her tragic choice."
     }
 ]
-<h2>Dicas:<h/2>
+<h2>Dicas:</h2>
 - Testes são bem-vindos.
 - O filtro pode ser aplicado por 1 ou mais itens, mas devem atender aos requisitos.
 - Criar um readme.md com algumas informações do projeto é sempre bem útil.
