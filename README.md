@@ -1,5 +1,5 @@
 <p align="center">
- ![Dimensa Movies](dimensa.jpg)
+ ![Dimensa Movies](./dimensa.jpg)
   
 </p>
 <h1>Dimensa Movies</h1>
